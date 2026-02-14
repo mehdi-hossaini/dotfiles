@@ -1,12 +1,14 @@
 ## Install required packages (pacman)
-    sudo pacman -S dunst wofi hyprpolkitagent cachyos-gaming-meta steam​
+    sudo pacman -S dunst wofi hyprpolkitagent cachyos-gaming-meta steam hyprpaper waybar​
 
 ## Clone and copy configs
     git clone https://github.com/ViralScope/minimal-hyprland-dotfiles.git
     cd minimal-hyprland-dotfiles
     rm -rf .git
+    cp hello.jpg "/home/$USER/Pictures/"
+    cd .config
     mkdir -p "$HOME/.config"
-    cp -r dunst hypr kitty wofi "$HOME/.config/"
+    cp -r dunst hypr kitty wofi waybar "$HOME/.config/"
     
 ## Lazyvim installation
     sudo pacman -S neovim 
