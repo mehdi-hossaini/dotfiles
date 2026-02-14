@@ -17,6 +17,7 @@
     cd .config
     mkdir -p "$HOME/.config"
     cp -r dunst hypr kitty wofi waybar "$HOME/.config/"
+    reboot
     
 ## Lazyvim installation
     sudo pacman -S neovim 
