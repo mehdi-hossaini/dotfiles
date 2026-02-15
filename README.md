@@ -19,10 +19,11 @@
     cp -r dunst hypr kitty wofi waybar "$HOME/.config/"
     reboot
     
-## Lazyvim installation
+## AstroNvim installation
     sudo pacman -S neovim 
-    git clone https://github.com/LazyVim/starter ~/.config/nvim
+    git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
     rm -rf ~/.config/nvim/.git
+    nvim
 
 ## Keybinds​
 
