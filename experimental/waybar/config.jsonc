@@ -105,7 +105,7 @@
 
   "custom/logout": {
     "on-click": "hyprctl dispatch exit",
-    "format": "🚪",
+    "format": "󰍃",
     "tooltip": true,
     "tooltip-format": "Logout"
   },
