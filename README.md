@@ -1,6 +1,6 @@
 # Hyprland Dotfiles
 
-A minimal, high-performance Hyprland configuration for daily productivity. Features Tokyo Night Dark theme, 165Hz display support, minimal animations for snappy responsiveness, and pre-configured window rules for popular applications.
+A minimal, high-performance Hyprland configuration for daily productivity. Features Tokyo Night Dark theme, minimal animations for snappy responsiveness, and pre-configured window rules for popular applications.
 
 ![Hyprland Desktop Showcase](showcase.png)
 
@@ -8,7 +8,7 @@ A minimal, high-performance Hyprland configuration for daily productivity. Featu
 
 ## Configuration
 
-- **Display:** eDP-1 at 1920x1200@165Hz with VRR enabled (adjust in `~/.config/hypr/hyprland.conf`)
+- **Display:** eDP-1 at 1920x1200@165Hz with VRR enabled (! adjust in `~/.config/hypr/hyprland.conf`)
 - **Theme:** Tokyo Night Dark with GTK/Qt dark mode consistency
 - **Performance:** Animations disabled, blur off, VRR/VFR enabled for smooth experience
 - **Layout:** Dwindle tiling with 6px inner / 12px outer gaps, 10px rounding
