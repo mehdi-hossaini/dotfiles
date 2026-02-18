@@ -83,12 +83,7 @@ Common layouts: `us` `gb` `de` `fr` `es`
 
 | Key | App |
 |-----|-----|
-| `SUPER + Shift + S` | Steam |
-| `SUPER + Shift + D` | Discord |
-| `SUPER + Shift + M` | Spotify |
-| `SUPER + Shift + C` | VSCode |
 | `SUPER + Shift + T` | Dropdown terminal |
-| `SUPER + Shift + H` | Open Helix|
 
 ### Screenshots
 
