@@ -1,43 +1,92 @@
-theme = "tokyo_night"  # or "catppuccin_mocha", "dracula"
+theme = "tokyo_night"
 
 [editor]
 line-number = "relative"
-mouse = true                  # Mouse support (click, scroll, select)
-cursorline = true             # Highlight current line
-bufferline = "always"         # Show open tabs at the top
-auto-save = true              # Auto-save focus is lost
+mouse = true
+cursorline = true
+# "multiple" only shows the bufferline when more than one buffer is open, 
+# saving space compared to "always".
+bufferline = "multiple" 
 true-color = true
 text-width = 100
+# Visual marker at the text-width limit
+rulers = [0] 
 color-modes = true
 scrolloff = 5
+# Instant completion (default is 250ms)
+completion-timeout = 5 
+# Trigger completion after 1 char
+completion-trigger-len = 1 
+
+# Fix: auto-save is configured in its own section, not as a boolean in [editor]
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
 
 [editor.cursor-shape]
-insert = "bar"        # A vertical bar | when typing (Like VS Code)
-normal = "block"      # A block █ when navigating (Standard Vim/Helix)
-select = "underline"  # An underline _ when selecting text
+insert = "bar"
+normal = "block"
+select = "underline"
 
 [editor.file-picker]
-hidden = false                # Search hidden files (like .gitignore)
+hidden = false # Shows hidden files (like .gitignore)
 
 [editor.soft-wrap]
-enable = true                 # Prevent code from going off-screen
-
-# --- KEYBOARD SHORTCUTS ---
-[keys.normal]
-C-s = ":w"                    # Ctrl+s to Save
-"S-h" = ":buffer-previous"    # Shift+Left to switch tabs
-"S-l" = ":buffer-next"        # Shift+Right to switch tabs
-
-[keys.insert]
-j = { k = "normal_mode" }     # Press 'jk' to exit typing mode
+enable = true
+# Optional: Smoother wrapping experience
+max-wrap = 25 
+max-indent-retain = 0
+wrap-indicator = "" 
 
 [editor.lsp]
-display-messages = true       # Shows LSP status (e.g., "Server initializing...")
-auto-signature-help = true    # Automatically shows function params/types while you type
-display-inlay-hints = true    # (Optional) Shows inferred types inline (like "x: i32
+display-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+snippets = true
+
+# Modern diagnostic rendering (Helix 25.01+)
+[editor.inline-diagnostics]
+cursor-line = "warning" # Show diagnostics inline on the current line
+other-lines = "disable" # Keep other lines clean
+
+# Visual indentation guides
+[editor.indent-guides]
+render = true
+character = "▏" 
+skip-levels = 1
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name", "read-only-indicator"]
+# Added "version-control" for git branch, "read-only-indicator", and "file-modification-indicator"
+left = ["mode", "spinner", "version-control", "file-name", "read-only-indicator", "file-modification-indicator"]
 center = []
-right = ["diagnostics", "register", "position", "file-type"] # "register" shows clipboard content
+right = ["diagnostics", "selections", "register", "position", "file-encoding", "file-type"]
+separator = "│"
+mode.normal = "NOR"
+mode.insert = "INS"
+mode.select = "SEL"
+
+# ┌──────────────────────────────────────────────────────────────────────────────┐
+# │  KEY MAPPINGS                                                                │
+# └──────────────────────────────────────────────────────────────────────────────┘
+
+[keys.normal]
+# Standard shortcuts
+C-s = ":w"
+"S-h" = ":buffer-previous"
+"S-l" = ":buffer-next"
+"C-c" = ":config-open" 
+"ret" = "goto_word" 
+
+# Recommended bindings for navigating the syntax tree
+tab = "move_parent_node_end"
+S-tab = "move_parent_node_start"
+
+[keys.insert]
+# Escape Hatch
+j = { k = "normal_mode" }
+S-tab = "move_parent_node_start"
+
+[keys.select]
+tab = "extend_parent_node_end"
+S-tab = "extend_parent_node_start"
 

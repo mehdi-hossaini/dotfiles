@@ -36,7 +36,7 @@ echo "== Cloning dotfiles =="
 REPO_DIR="$HOME/dotfiles"
 
 if [ ! -d "$REPO_DIR" ]; then
-    git clone https://github.com/ViralScope/dotfiles.git "$REPO_DIR"
+    git clone https://github.com/mehdi-hossaini/dotfiles.git "$REPO_DIR"
 else
     echo "Dotfiles already exist. Pulling latest changes..."
     git -C "$REPO_DIR" pull || true

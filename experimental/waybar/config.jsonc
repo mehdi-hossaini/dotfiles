@@ -25,7 +25,7 @@
 "custom/cachyos": {
   "format": "⚡",
   "tooltip-format": "CachyOS",
-  "on-click": "btop"
+  "on-click": "kitty btop"
 },
 
   "hyprland/workspaces": {

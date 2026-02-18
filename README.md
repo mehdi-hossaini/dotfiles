@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![CachyOS](https://img.shields.io/badge/CachyOS-Recommended-orange?style=flat-square)](https://cachyos.org)
 
-A minimal, clean **Hyprland configuration** for daily productivity on **Arch Linux** and **CachyOS**. Features **Tokyo Night Dark theme**, minimal animations for snappy responsiveness, **VRR support**, and pre-configured **window rules** for 50+ popular applications.
+A minimal, clean **Hyprland configuration** for daily productivity on **Arch Linux** and **CachyOS**. Features **Tokyo Night Dark theme**, minimal animations for snappy responsiveness, **VRR support**, and pre-configured **window rules** for 130+ popular applications.
 
 ![Hyprland Desktop Screenshot - Tokyo Night Theme on CachyOS](showcase.png)
 
@@ -53,7 +53,7 @@ Common layouts: `us` `gb` `de` `fr` `es`
 | **Performance** | Animations disabled, VRR/VFR enabled |
 | **Layout** | Dwindle tiling, 6px inner / 12px outer gaps |
 | **Workspaces** | Auto-assigned apps per workspace |
-| **Window Rules** | 50+ pre-configured applications |
+| **Window Rules** | 130+ pre-configured applications |
 | **Components** | Waybar, Wofi, Dunst, Kitty, Dolphin, Pipewire |
 
 ### Workspace Assignments
@@ -120,8 +120,6 @@ Common layouts: `us` `gb` `de` `fr` `es`
 | `Brightness Up/Down` | ±5% |
 | `Play/Pause/Next/Prev` | Media controls |
 
----
-
 ## 📋 Supported Applications
 
 <details>
@@ -130,20 +128,26 @@ Common layouts: `us` `gb` `de` `fr` `es`
 > [!NOTE]
 > These applications are **not included**. Only window rules are pre-configured. Install what you need.
 
-- **Browsers:** Firefox, Zen Browser, Chrome, Chromium, Brave, Librewolf
-- **Terminals:** Kitty, Alacritty, Foot, Wezterm
-- **File Managers:** Dolphin, Nautilus, Thunar, PCManFM, Nemo
-- **IDEs:** VSCode, VSCodium, JetBrains IDEs, Zed, Neovide, Emacs
-- **Communication:** Discord, Slack, Teams, Telegram, Signal, WhatsApp
-- **Media:** Spotify, VLC, MPV, OBS, Audacity
-- **Gaming:** Steam, Lutris, Heroic, Bottles, Minecraft
-- **Creative:** GIMP, Inkscape, Krita, Blender
-- **Office:** LibreOffice, OnlyOffice
-- **VMs:** Virt-Manager, VirtualBox, Remmina
+- **Browsers:** Firefox, Zen Browser (alpha/beta/stable), Chrome, Chromium, Brave, Librewolf, Vivaldi, Opera, Thorium
+- **Terminals:** Kitty (incl. dropdown), Alacritty, Foot, Wezterm, Ghostty, Contour
+- **File Managers:** Dolphin (extensive dialogs), Nautilus, Thunar, PCManFM, Nemo, Caja, Krusader, Double Commander, Ranger
+- **IDEs & Editors:** VSCode, VSCodium, JetBrains IDEs (incl. Android Studio), Zed, Neovide, Emacs, Sublime Text, DBeaver, TablePlus, Beekeeper, Insomnia, Postman
+- **Communication:** Discord/Vesktop/WebCord, Slack, Teams, Telegram, Signal, WhatsApp, Element, Fluffychat, Nheko, Fractal, Hexchat, Thunderbird, Evolution
+- **Media & Streaming:** Spotify/ncspot, VLC, MPV, Celluloid, Lollypop, Rhythmbox, Clementine, Strawberry, Audacity, OBS, Kdenlive, Openshot, Shotcut, DaVinci Resolve
+- **Gaming:** Steam (games FS WS5), Lutris, Heroic, Bottles, Minecraft (launcher/game), PrismLauncher, Gamescope, CS2, Wine/Proton, MangoHUD
+- **Creative Tools:** GIMP, Inkscape, Krita, Blender, Darktable, RawTherapee, Digikam, Shotwell
+- **Office & Docs:** LibreOffice, OnlyOffice, WPS Office, Calibre; Viewers (Evince/Okular/Zathura, Image viewers)
+- **VMs & Remote:** Virt-Manager, VirtualBox, Remmina, Looking Glass, AnyDesk, RustDesk
+- **System Utilities:** Pavucontrol, NetworkManager, Bluetooth, Calculators (GNOME/KCalc), System Settings, GParted, Timeshift, Font Manager, Monitors (GNOME/HTOP/BTOP), Archive managers
+- **Package Managers:** Octopi, Pamac, Update Manager
+- **CachyOS Specific:** CachyOSHello, CachyOS Pi, BTRFS Assistant
+- **Extras:** GitKraken/GitG, Swappy/Flameshot, KDE Connect, Zenity/YAD/KDialog, printers/scanners/disk usage
+
+**Workspaces Summary:**  
+WS1: Browsers • WS2: Files • WS3: Dev • WS4: Chat • WS5: Games • WS6: Media • WS7: Creative/Streaming • WS8: Office • WS9: VMs/Remote • WS10: Overflow
 
 </details>
 
----
 
 ## 🏷️ Topics
 
