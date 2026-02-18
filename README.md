@@ -56,21 +56,6 @@ Common layouts: `us` `gb` `de` `fr` `es`
 | **Window Rules** | 130+ pre-configured applications |
 | **Components** | Waybar, Wofi, Dunst, Kitty, Dolphin, Pipewire |
 
-### Workspace Assignments
-
-| Workspace | Apps |
-|-----------|------|
-| 1 | Browser (Firefox, Zen, Chrome) |
-| 2 | Files (Dolphin, Nautilus) |
-| 3 | Code (VSCode, JetBrains) |
-| 4 | Social (Discord, Telegram) |
-| 5-6 | Media (Spotify, VLC) |
-| 7 | Creative (GIMP, Blender) |
-| 8 | Office (LibreOffice) |
-| 9 | VMs (Virt-Manager) |
-
----
-
 ## ⌨️ Keybinds
 
 ### Window Management
@@ -142,9 +127,6 @@ Common layouts: `us` `gb` `de` `fr` `es`
 - **Package Managers:** Octopi, Pamac, Update Manager
 - **CachyOS Specific:** CachyOSHello, CachyOS Pi, BTRFS Assistant
 - **Extras:** GitKraken/GitG, Swappy/Flameshot, KDE Connect, Zenity/YAD/KDialog, printers/scanners/disk usage
-
-**Workspaces Summary:**  
-WS1: Browsers • WS2: Files • WS3: Dev • WS4: Chat • WS5: Games • WS6: Media • WS7: Creative/Streaming • WS8: Office • WS9: VMs/Remote • WS10: Overflow
 
 </details>
 
