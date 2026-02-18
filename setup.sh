@@ -28,8 +28,7 @@ sudo pacman -S --needed --noconfirm \
     steam \
     grim \
     slurp \
-    wl-clipboard \
-    helix
+    wl-clipboard
 
 echo "== Cloning dotfiles =="
 
@@ -49,7 +48,7 @@ mkdir -p "$HOME/.config"
 
 echo "Installing experimental dotfiles..."
 CONFIG_SOURCE="$REPO_DIR/experimental"
-DIRS="btop dunst fish helix hypr kitty waybar wofi"
+DIRS="btop dunst fish hypr kitty waybar wofi"
 
 if [ -d "$CONFIG_SOURCE" ]; then
     for dir in $DIRS; do
