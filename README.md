@@ -88,6 +88,7 @@ Common layouts: `us` `gb` `de` `fr` `es`
 | `SUPER + Shift + M` | Spotify |
 | `SUPER + Shift + C` | VSCode |
 | `SUPER + Shift + T` | Dropdown terminal |
+| `SUPER + Shift + H` | Open Helix|
 
 ### Screenshots
 
