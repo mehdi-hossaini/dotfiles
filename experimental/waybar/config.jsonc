@@ -34,7 +34,7 @@
     "on-click": "wofi --show drun --matching=snappy -i"
   },
   "hyprland/workspaces": {
-    "format": "{name} {icon}",
+    "format": "{icon}",
     "tooltip": false,
     "all-outputs": true,
     "disable-scroll": false,
