@@ -1,0 +1,120 @@
+[Default Applications]
+
+# ------------------------------------------------------------------------------
+# WEB BROWSERS
+# ------------------------------------------------------------------------------
+text/html=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+x-scheme-handler/http=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+x-scheme-handler/https=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+x-scheme-handler/about=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+x-scheme-handler/unknown=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+
+# ------------------------------------------------------------------------------
+# FILE MANAGER
+# ------------------------------------------------------------------------------
+inode/directory=org.kde.dolphin.desktop;thunar.desktop;nemo.desktop;org.gnome.Nautilus.desktop;pcmanfm.desktop;org.kde.krusader.desktop;ranger.desktop;mc.desktop;caja.desktop;org.kde.index.desktop;rox.desktop;
+
+# ------------------------------------------------------------------------------
+# TEXT EDITORS & DEVELOPMENT
+# ------------------------------------------------------------------------------
+text/plain=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/markdown=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-python=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-shellscript=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+application/x-shellscript=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-c=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-c++=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-java=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-cmake=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-makefile=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+application/json=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+application/xml=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/xml=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+application/x-yaml=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/yaml=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+application/toml=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+text/x-toml=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+application/x-desktop=code.desktop;org.kde.kate.desktop;vim.desktop;nvim.desktop;geany.desktop;sublime_text.desktop;mousepad.desktop;org.gnome.TextEditor.desktop;org.gnome.gedit.desktop;leafpad.desktop;emacs.desktop;nano.desktop;org.kde.kwrite.desktop;
+
+# ------------------------------------------------------------------------------
+# IMAGES
+# ------------------------------------------------------------------------------
+image/jpeg=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/png=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/gif=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/svg+xml=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/webp=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/tiff=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/bmp=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/x-icon=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+image/vnd.microsoft.icon=org.kde.gwenview.desktop;imv.desktop;org.gnome.eog.desktop;viewnior.desktop;feh.desktop;qimgv.desktop;org.xfce.ristretto.desktop;nomacs.desktop;mirage.desktop;org.gnome.Shotwell.desktop;lximage-qt.desktop;
+
+# ------------------------------------------------------------------------------
+# AUDIO & VIDEO
+# ------------------------------------------------------------------------------
+audio/mpeg=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+audio/x-mpegurl=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+audio/x-wav=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+audio/x-flac=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+audio/ogg=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+audio/mp4=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+video/mp4=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+video/mpeg=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+video/webm=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+video/x-matroska=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+video/x-flv=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+video/quicktime=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+application/x-flash-video=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+application/vnd.apple.mpegurl=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+application/x-mpegurl=vlc.desktop;mpv.desktop;org.gnome.Totem.desktop;smplayer.desktop;io.github.celluloid_player.Celluloid.desktop;org.kde.haruna.desktop;parole.desktop;org.kde.dragonplayer.desktop;kaffeine.desktop;mplayer.desktop;ffplay.desktop;
+
+# ------------------------------------------------------------------------------
+# DOCUMENTS (PDF, OFFICE)
+# ------------------------------------------------------------------------------
+application/pdf=org.kde.okular.desktop;org.gnome.Evince.desktop;org.pwmt.zathura.desktop;com.github.bcedu.mupdf.desktop;firefox.desktop;chromium.desktop;google-chrome.desktop;libreoffice-draw.desktop;xpdf.desktop;atril.desktop;
+application/postscript=org.kde.okular.desktop;org.gnome.Evince.desktop;org.pwmt.zathura.desktop;com.github.bcedu.mupdf.desktop;
+image/vnd.djvu=org.kde.okular.desktop;org.gnome.Evince.desktop;org.pwmt.zathura.desktop;com.github.bcedu.mupdf.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;wps-office-writer.desktop;calligrawords.desktop;abiword.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;wps-office-spreadsheets.desktop;calligrasheets.desktop;gnumeric.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop;wps-office-presentation.desktop;calligrastage.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;wps-office-writer.desktop;calligrawords.desktop;abiword.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;wps-office-spreadsheets.desktop;calligrasheets.desktop;gnumeric.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;wps-office-presentation.desktop;calligrastage.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/msword=libreoffice-writer.desktop;wps-office-writer.desktop;calligrawords.desktop;abiword.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.ms-excel=libreoffice-calc.desktop;wps-office-spreadsheets.desktop;calligrasheets.desktop;gnumeric.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+application/vnd.ms-powerpoint=libreoffice-impress.desktop;wps-office-presentation.desktop;calligrastage.desktop;org.onlyoffice.desktopeditors.desktop;org.kde.okular.desktop;
+
+# ------------------------------------------------------------------------------
+# ARCHIVES
+# ------------------------------------------------------------------------------
+application/zip=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-tar=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-7z-compressed=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-rar=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-compressed-tar=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-bzip=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-bzip2=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-gzip=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-lhom=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-lha=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-lzma=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-xz=org.kde.ark.desktop;org.gnome.FileRoller.desktop;engrampa.desktop;xarchiver.desktop;peazip.desktop;7zip.desktop;b1-free-archiver.desktop;lxqt-archiver.desktop;
+application/x-iso9660-image=org.kde.dolphin.desktop;thunar.desktop;nemo.desktop;org.gnome.Nautilus.desktop;pcmanfm.desktop;org.kde.krusader.desktop;ranger.desktop;mc.desktop;caja.desktop;
+
+# ------------------------------------------------------------------------------
+# MISC SCHEMES & APPS
+# ------------------------------------------------------------------------------
+x-scheme-handler/magnet=qbittorrent.desktop;transmission-gtk.desktop;deluge.desktop;ktorrent.desktop;rtorrent.desktop;de.haeckerfelix.Fragments.desktop;tixati.desktop;transmission-qt.desktop;
+x-scheme-handler/mailto=thunderbird.desktop;betterbird.desktop;kmail.desktop;evolution.desktop;geary.desktop;sylpheed.desktop;claws-mail.desktop;org.gnome.Geary.desktop;mailspring.desktop;
+x-scheme-handler/spotify=spotify.desktop;
+application/x-bittorrent=qbittorrent.desktop;transmission-gtk.desktop;deluge.desktop;ktorrent.desktop;rtorrent.desktop;de.haeckerfelix.Fragments.desktop;tixati.desktop;transmission-qt.desktop;
+
+# ------------------------------------------------------------------------------
+# ADDED ASSOCIATIONS (Ensures persistence)
+# ------------------------------------------------------------------------------
+[Added Associations]
+text/html=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+x-scheme-handler/http=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+x-scheme-handler/https=firefox.desktop;zen.desktop;vivaldi-stable.desktop;chromium.desktop;brave-browser.desktop;google-chrome.desktop;opera.desktop;microsoft-edge.desktop;tor-browser.desktop;org.kde.falkon.desktop;org.gnome.Epiphany.desktop;midori.desktop;
+inode/directory=org.kde.dolphin.desktop;thunar.desktop;nemo.desktop;org.gnome.Nautilus.desktop;pcmanfm.desktop;org.kde.krusader.desktop;ranger.desktop;mc.desktop;caja.desktop;org.kde.index.desktop;rox.desktop;
+application/pdf=org.kde.okular.desktop;org.gnome.Evince.desktop;org.pwmt.zathura.desktop;com.github.bcedu.mupdf.desktop;firefox.desktop;chromium.desktop;google-chrome.desktop;libreoffice-draw.desktop;xpdf.desktop;atril.desktop;
