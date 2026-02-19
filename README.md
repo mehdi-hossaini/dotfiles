@@ -7,7 +7,7 @@
 
 **The CachyOS Hyprland edition ships with no dotfiles by default.** This repo fills that gap — a complete, opinionated **CachyOS Hyprland configuration** ready for daily use out of the box. Tokyo Night Dark theme, vertical Waybar with live Cava audio visualizer, 130+ pre-configured window rules, Wofi power & WiFi menus, dropdown Kitty terminal, and a single automated install script that also tunes your network stack and NVMe scheduler.
 
-![CachyOS Hyprland Desktop - Tokyo Night Theme](showcase.png)
+![CachyOS Hyprland Desktop - Tokyo Night Theme](showcase.mp4)
 
 > [!NOTE]
 > Designed for a **fresh [CachyOS](https://cachyos.org/) Hyprland edition** install — the perfect starting point since it ships with no dotfiles. Also works on any Arch Linux + Hyprland setup.

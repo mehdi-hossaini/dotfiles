@@ -101,8 +101,8 @@
   },
   "tray": {
     "show-passive-items": true,
-    "spacing": 0,
-    "icon-size": 12
+    "spacing": 4,
+    "icon-size": 18
   },
   "custom/separator": {
     "format": "──",
